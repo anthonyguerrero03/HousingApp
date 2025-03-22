@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Niner Housing Hub</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Support</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Explore.html">Explore</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li> 
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="support">
+            <h2>Support - FAQs</h2>
+            <div class="faq">
+                <div class="question" id="q1">
+                    <h3><button class="accordion">+</button> Question 1: How can I find off-campus housing near UNC Charlotte?</h3>
+                    <p class="answer">NinerHousingHub offers a simple platform for students seeking off-campus housing options near UNC Charlotte. You can explore a variety of listings, including apartments, sublets, and roommate opportunities, all conveniently located close to campus.</p>
+                </div>
+                <div class="question" id="q2">
+                    <h3><button class="accordion">+</button> Question 2: What are the best places to live near Campus?</h3>
+                    <p class="answer">NinerHousingHub offers multiple options to live at, as well as the most popular ones chosen by current students. In the explore tab, you can find more information about the best listings.</p>
+                </div>
+                <div class="question" id="q3">
+                    <h3><button class="accordion">+</button> Question 3: Where can we connect with other students about the housing NinerHousingHub offers?</h3>
+                    <p class="answer">Once you are registered through NinerHousingHub, we offer multiple group chats students are able to connect in.</p>
+                </div>
+                <div class="submit-question">
+                    <h3>Submit a Comment</h3>
+                    <form id="custom-question-form">
+                        <label for="custom-question">Your Comment:</label><br>
+                        <textarea id="custom-question" name="custom-question" rows="4" cols="50"></textarea><br>
+                        <button type="submit" onclick="submitComment()">Submit</button>
+
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 NinerHousingHub. All rights reserved.</p>
+    </footer>
+
+    <script src="accordion.js"></script>
+</body>
+</html>
